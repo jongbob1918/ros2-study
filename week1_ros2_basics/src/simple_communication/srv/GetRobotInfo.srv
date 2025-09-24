@@ -1,0 +1,5 @@
+# srv/GetRobotInfo.srv
+---
+string robot_name
+string status
+float32 battery_level
