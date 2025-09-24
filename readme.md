@@ -145,7 +145,7 @@
 ## 폴더 구조 및 관리 방법
 
 ```
-robot_projects/
+ros2-study/
 ├── README.md                          # 메인 로드맵 (이 문서)
 ├── docs/                              # 문서 및 회고
 │   ├── daily_logs/                    # 일일 회고
