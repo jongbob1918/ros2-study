@@ -1,0 +1,37 @@
+[0.642s] Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/robot_communication': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_communication build --build-base /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build install --record /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/install.log --single-version-externally-managed install_data
+[0.878s] running egg_info
+[0.880s] creating ../build/robot_communication/robot_communication.egg-info
+[0.899s] writing ../build/robot_communication/robot_communication.egg-info/PKG-INFO
+[0.899s] writing dependency_links to ../build/robot_communication/robot_communication.egg-info/dependency_links.txt
+[0.899s] writing entry points to ../build/robot_communication/robot_communication.egg-info/entry_points.txt
+[0.900s] writing requirements to ../build/robot_communication/robot_communication.egg-info/requires.txt
+[0.900s] writing top-level names to ../build/robot_communication/robot_communication.egg-info/top_level.txt
+[0.900s] writing manifest file '../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+[0.938s] reading manifest file '../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.939s] running build_py
+[0.939s] creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build
+[0.939s] creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build/lib
+[0.939s] creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build/lib/robot_communication
+[0.939s] copying robot_communication/real_robot_data.py -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build/lib/robot_communication
+[0.939s] copying robot_communication/__init__.py -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build/lib/robot_communication
+[0.939s] running install
+[0.946s] running install_lib
+[0.967s] creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/python3.12/site-packages/robot_communication
+[0.967s] copying /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build/lib/robot_communication/real_robot_data.py -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/python3.12/site-packages/robot_communication
+[0.967s] copying /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build/lib/robot_communication/__init__.py -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/python3.12/site-packages/robot_communication
+[0.968s] byte-compiling /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/python3.12/site-packages/robot_communication/real_robot_data.py to real_robot_data.cpython-312.pyc
+[0.968s] byte-compiling /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/python3.12/site-packages/robot_communication/__init__.py to __init__.cpython-312.pyc
+[0.968s] running install_data
+[0.968s] creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/share/ament_index
+[0.969s] creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/share/ament_index/resource_index
+[0.969s] creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/share/ament_index/resource_index/packages
+[0.969s] copying resource/robot_communication -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/share/ament_index/resource_index/packages
+[0.969s] copying package.xml -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/share/robot_communication
+[0.969s] running install_egg_info
+[0.985s] Copying ../build/robot_communication/robot_communication.egg-info to /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/python3.12/site-packages/robot_communication-0.0.0-py3.12.egg-info
+[0.985s] running install_scripts
+[1.105s] Installing real_robot_data script to /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/robot_communication
+[1.105s] writing list of installed files to '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/install.log'
+[1.137s] Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/robot_communication' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/install/robot_communication/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_communication build --build-base /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/build install --record /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/build/robot_communication/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robot_communication/robot_communication.egg-info
+writing ../../build/robot_communication/robot_communication.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_communication/robot_communication.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_communication/robot_communication.egg-info/entry_points.txt
+writing requirements to ../../build/robot_communication/robot_communication.egg-info/requires.txt
+writing top-level names to ../../build/robot_communication/robot_communication.egg-info/top_level.txt
+writing manifest file '../../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build
+creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build/lib
+creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build/lib/robot_communication
+copying robot_communication/real_robot_data.py -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build/lib/robot_communication
+copying robot_communication/__init__.py -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build/lib/robot_communication
+running install
+running install_lib
+creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages/robot_communication
+copying /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build/lib/robot_communication/real_robot_data.py -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages/robot_communication
+copying /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build/lib/robot_communication/__init__.py -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages/robot_communication
+byte-compiling /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages/robot_communication/real_robot_data.py to real_robot_data.cpython-312.pyc
+byte-compiling /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages/robot_communication/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/ament_index
+creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/ament_index/resource_index
+creating /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/ament_index/resource_index/packages
+copying resource/robot_communication -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/ament_index/resource_index/packages
+copying package.xml -> /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication
+running install_egg_info
+Copying ../../build/robot_communication/robot_communication.egg-info to /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages/robot_communication-0.0.0-py3.12.egg-info
+running install_scripts
+Installing real_robot_data script to /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/robot_communication
+writing list of installed files to '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/install.log'

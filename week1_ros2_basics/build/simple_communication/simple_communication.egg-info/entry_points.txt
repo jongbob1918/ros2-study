@@ -1,3 +1,0 @@
-[console_scripts]
-robot_status_publisher = simple_communication.robot_status_publisher:main
-robot_status_subscriber = simple_communication.robot_status_subscriber:main

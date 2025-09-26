@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from simple_communication.src import GetRobotInfo
+from simple_communication.srv import GetRobotInfo
 
 class RobotInfoService(Node):
     def __init__(self):
@@ -10,4 +10,16 @@ class RobotInfoService(Node):
     def get_info_callback(self, request, response):
         response.robot_name = "PatrolBot-001"
         response.status = "Operational"
-        response.ba
+        response.battery_level = 85.5
+        self.get_logger().info('Service request received')
+        return response
+
+def main(args=None):
+    rclpy.init(args=args)
+    robot_info_service = RobotInfoService()
+    rclpy.spin(robot_info_service)
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

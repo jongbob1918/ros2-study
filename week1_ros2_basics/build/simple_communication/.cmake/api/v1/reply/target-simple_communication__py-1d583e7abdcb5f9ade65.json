@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication/simple_communication__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "simple_communication::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "simple_communication__py::@b5f3a47afe93e9fb34d5",
+	"name" : "simple_communication__py",
+	"paths" : 
+	{
+		"build" : "simple_communication__py",
+		"source" : "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication/simple_communication__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication/simple_communication__py/CMakeFiles/simple_communication__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication/simple_communication__py/CMakeFiles/simple_communication__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication/rosidl_generator_py/simple_communication/_simple_communication_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

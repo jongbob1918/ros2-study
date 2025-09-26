@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "simple_communication__py",
+		"source" : "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication/simple_communication__py"
+	}
+}

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e23f33a828a4bdfb0099.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "simple_communication__py",
+					"jsonFile" : "directory-simple_communication__py-6ec9528463eaeeea7146.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication/simple_communication__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "simple_communication",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_simple_communication_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_simple_communication_egg-cfac0dee75dc35d551e6.json",
+					"name" : "ament_cmake_python_build_simple_communication_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_simple_communication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_simple_communication-9ddb576e5c6ccaf64187.json",
+					"name" : "ament_cmake_python_copy_simple_communication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication-d33b4bc426f0586dc08e.json",
+					"name" : "simple_communication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__cpp-2d0c3a4fa1a6e2ba01dc.json",
+					"name" : "simple_communication__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "simple_communication__py::@b5f3a47afe93e9fb34d5",
+					"jsonFile" : "target-simple_communication__py-1d583e7abdcb5f9ade65.json",
+					"name" : "simple_communication__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_generator_c-869ee492c9e23d325a99.json",
+					"name" : "simple_communication__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_generator_py-1b9709913051cb5b0462.json",
+					"name" : "simple_communication__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_generator_type_description-b913b661e76dbe736d4f.json",
+					"name" : "simple_communication__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_typesupport_c-e339bf04f2608b9f203e.json",
+					"name" : "simple_communication__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_typesupport_cpp-fcdc0774842cd109e27e.json",
+					"name" : "simple_communication__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_typesupport_fastrtps_c-109675c50ea6a4b8cc73.json",
+					"name" : "simple_communication__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_typesupport_fastrtps_cpp-ac5a147abb6669b671d2.json",
+					"name" : "simple_communication__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_typesupport_introspection_c-cfe3db41d56051d35051.json",
+					"name" : "simple_communication__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication__rosidl_typesupport_introspection_cpp-99fa64245457edff53b2.json",
+					"name" : "simple_communication__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication_s__rosidl_typesupport_c-669bacd6bb1b4751ac97.json",
+					"name" : "simple_communication_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication_s__rosidl_typesupport_fastrtps_c-383a6d1076444f3c9da9.json",
+					"name" : "simple_communication_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication_s__rosidl_typesupport_introspection_c-aaa69c6ed3528d3a7221.json",
+					"name" : "simple_communication_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_communication_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_communication_uninstall-eecf73a392c000a0da3f.json",
+					"name" : "simple_communication_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7940bb0c97b66f528900.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication",
+		"source" : "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/simple_communication"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

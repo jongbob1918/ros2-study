@@ -27,7 +27,8 @@ setup(
         'console_scripts': [
             'robot_status_publisher = simple_communication.robot_status_publisher:main',
             'robot_status_subscriber = simple_communication.robot_status_subscriber:main',
-            
+            'robot_info_client = simple_communication.robot_info_client:main',
+            'robot_info_service = simple_communication.robot_info_service:main',
         ],
     },
 )

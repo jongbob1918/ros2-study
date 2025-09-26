@@ -1,0 +1,6 @@
+{
+  "package_name": "simple_communication",
+  "non_idl_tuples": [
+    "/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/simple_communication:srv/GetRobotInfo.srv"
+  ]
+}
