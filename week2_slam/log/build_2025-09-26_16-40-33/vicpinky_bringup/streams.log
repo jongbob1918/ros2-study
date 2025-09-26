@@ -1,0 +1,21 @@
+[0.603s] Invoking command in '/home/jongbob/dev_ws/ros2-study/week2_slam/src/vic_pinky_VSLAM/vicpinky_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jongbob/dev_ws/ros2-study/week2_slam/build/vicpinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jongbob/dev_ws/ros2-study/week2_slam/install/vicpinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vicpinky_bringup build --build-base /home/jongbob/dev_ws/ros2-study/week2_slam/build/vicpinky_bringup/build install --record /home/jongbob/dev_ws/ros2-study/week2_slam/build/vicpinky_bringup/install.log --single-version-externally-managed install_data
+[0.783s] running egg_info
+[0.796s] writing ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/PKG-INFO
+[0.796s] writing dependency_links to ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/dependency_links.txt
+[0.797s] writing entry points to ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/entry_points.txt
+[0.797s] writing requirements to ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/requires.txt
+[0.797s] writing top-level names to ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/top_level.txt
+[0.826s] reading manifest file '../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/SOURCES.txt'
+[0.826s] writing manifest file '../../../build/vicpinky_bringup/vicpinky_bringup.egg-info/SOURCES.txt'
+[0.826s] running build
+[0.826s] running build_py
+[0.827s] running install
+[0.831s] running install_lib
+[0.845s] running install_data
+[0.845s] running install_egg_info
+[0.859s] removing '/home/jongbob/dev_ws/ros2-study/week2_slam/install/vicpinky_bringup/lib/python3.12/site-packages/vicpinky_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[0.859s] Copying ../../../build/vicpinky_bringup/vicpinky_bringup.egg-info to /home/jongbob/dev_ws/ros2-study/week2_slam/install/vicpinky_bringup/lib/python3.12/site-packages/vicpinky_bringup-0.0.0-py3.12.egg-info
+[0.860s] running install_scripts
+[0.952s] Installing bringup script to /home/jongbob/dev_ws/ros2-study/week2_slam/install/vicpinky_bringup/lib/vicpinky_bringup
+[0.952s] writing list of installed files to '/home/jongbob/dev_ws/ros2-study/week2_slam/build/vicpinky_bringup/install.log'
+[0.972s] Invoked command in '/home/jongbob/dev_ws/ros2-study/week2_slam/src/vic_pinky_VSLAM/vicpinky_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jongbob/dev_ws/ros2-study/week2_slam/build/vicpinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jongbob/dev_ws/ros2-study/week2_slam/install/vicpinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vicpinky_bringup build --build-base /home/jongbob/dev_ws/ros2-study/week2_slam/build/vicpinky_bringup/build install --record /home/jongbob/dev_ws/ros2-study/week2_slam/build/vicpinky_bringup/install.log --single-version-externally-managed install_data

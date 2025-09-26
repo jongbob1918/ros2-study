@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:arg name="namespace" default=""/>
+    <xacro:property name="prefix" value="$(arg namespace)"/>
+
+    <gazebo reference="${prefix}camera_link">
+      <sensor name="camera" type="rgbd_camera">
+        <update_rate>30.0</update_rate>
+        
+        <topic>/astra</topic>
+        
+        <camera name="astra">
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.6</near>
+            <far>8.0</far>
+          </clip>
+        </camera>
+        
+        </sensor>
+    </gazebo>
+</robot>

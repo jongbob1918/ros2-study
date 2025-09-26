@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/robot_communication/robot_communication.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_communication/robot_communication.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_communication/robot_communication.egg-info/entry_points.txt
+writing requirements to ../../build/robot_communication/robot_communication.egg-info/requires.txt
+writing top-level names to ../../build/robot_communication/robot_communication.egg-info/top_level.txt
+reading manifest file '../../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_communication/robot_communication.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages/robot_communication-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/robot_communication/robot_communication.egg-info to /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages/robot_communication-0.0.0-py3.12.egg-info
+running install_scripts
+Installing real_robot_data script to /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/robot_communication
+writing list of installed files to '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/install.log'

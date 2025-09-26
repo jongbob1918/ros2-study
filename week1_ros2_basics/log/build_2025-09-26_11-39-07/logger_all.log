@@ -1,0 +1,534 @@
+[0.187s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.187s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0b276ac350>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0b27621fa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0b27621fa0>>, mixin_verb=('build',))
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.229s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_communication) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_communication' with type 'ros.ament_python' and name 'robot_communication'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_communication) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_communication' with type 'ros.catkin' and name 'simple_communication'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/doc) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_bringup) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vic_pinky/vicpinky_bringup' with type 'ros.ament_python' and name 'vicpinky_bringup'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_description) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vic_pinky/vicpinky_description' with type 'ros.ament_cmake' and name 'vicpinky_description'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_gazebo) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vic_pinky/vicpinky_gazebo' with type 'ros.ament_cmake' and name 'vicpinky_gazebo'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vic_pinky/vicpinky_navigation) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vic_pinky/vicpinky_navigation' with type 'ros.ament_cmake' and name 'vicpinky_navigation'
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/jazzy
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'robot_communication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'robot_communication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication', 'merge_install': False, 'path': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/robot_communication', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'simple_communication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'simple_communication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication', 'merge_install': False, 'path': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/simple_communication', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2', 'merge_install': False, 'path': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'vicpinky_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup', 'merge_install': False, 'path': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'vicpinky_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description', 'merge_install': False, 'path': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_description', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'vicpinky_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation', 'merge_install': False, 'path': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'vicpinky_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'vicpinky_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo', 'merge_install': False, 'path': '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.342s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_description' with build type 'ament_cmake'
+[0.343s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_description'
+[0.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/robot_communication' with build type 'ament_python'
+[0.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_communication', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/hook/ament_prefix_path.ps1'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/hook/ament_prefix_path.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/hook/ament_prefix_path.sh'
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/simple_communication' with build type 'catkin'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/simple_communication'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/sllidar_ros2' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/sllidar_ros2'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_bringup' with build type 'ament_python'
+[0.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_bringup', 'ament_prefix_path')
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/hook/ament_prefix_path.ps1'
+[0.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/hook/ament_prefix_path.dsv'
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/hook/ament_prefix_path.sh'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.361s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_navigation' with build type 'ament_cmake'
+[0.361s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_navigation'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description -- -j8 -l8
+[0.512s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/robot_communication'
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication -- -j8 -l8
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2 -- -j8 -l8
+[0.691s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_bringup'
+[0.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description -- -j8 -l8
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description
+[0.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2 -- -j8 -l8
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2
+[0.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation -- -j8 -l8
+[0.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_description)
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_description
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description' for CMake module files
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description' for CMake config files
+[0.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_description', 'cmake_prefix_path')
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.sh'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/bin'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/lib/pkgconfig/vicpinky_description.pc'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/lib/python3.12/site-packages'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/bin'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.sh'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.bash'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.zsh'
+[0.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/colcon-core/packages/vicpinky_description)
+[0.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_description)
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description' for CMake module files
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description' for CMake config files
+[0.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_description', 'cmake_prefix_path')
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.ps1'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/hook/cmake_prefix_path.sh'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/bin'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/lib/pkgconfig/vicpinky_description.pc'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/lib/python3.12/site-packages'
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/bin'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.ps1'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.dsv'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.sh'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.bash'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/vicpinky_description/package.zsh'
+[0.737s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description/share/colcon-core/packages/vicpinky_description)
+[0.737s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_gazebo' with build type 'ament_cmake'
+[0.737s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_gazebo'
+[0.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2' for CMake module files
+[0.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/sllidar_ros2
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2' for CMake config files
+[0.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/lib'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/bin'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/lib/python3.12/site-packages'
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/bin'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2' for CMake module files
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2' for CMake config files
+[0.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/lib'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/bin'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/lib/python3.12/site-packages'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/bin'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[0.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[0.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo': AMENT_PREFIX_PATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo -- -j8 -l8
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation -- -j8 -l8
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation
+[0.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_navigation)
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation' for CMake module files
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation' for CMake config files
+[0.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_navigation', 'cmake_prefix_path')
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_navigation
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.dsv'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.sh'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/bin'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/lib/pkgconfig/vicpinky_navigation.pc'
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/lib/python3.12/site-packages'
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/bin'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.sh'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.bash'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.zsh'
+[0.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/colcon-core/packages/vicpinky_navigation)
+[0.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_navigation)
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation' for CMake module files
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation' for CMake config files
+[0.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_navigation', 'cmake_prefix_path')
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.ps1'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.dsv'
+[0.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/hook/cmake_prefix_path.sh'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/bin'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/lib/pkgconfig/vicpinky_navigation.pc'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/lib/python3.12/site-packages'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/bin'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.ps1'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.dsv'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.sh'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.bash'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/vicpinky_navigation/package.zsh'
+[0.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_navigation/share/colcon-core/packages/vicpinky_navigation)
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo -- -j8 -l8
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo': AMENT_PREFIX_PATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo
+[0.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_gazebo)
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo' for CMake module files
+[0.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_gazebo
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo' for CMake config files
+[0.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_gazebo', 'cmake_prefix_path')
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.ps1'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.sh'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/bin'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/lib/pkgconfig/vicpinky_gazebo.pc'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/lib/python3.12/site-packages'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/bin'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.ps1'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.dsv'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.sh'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.bash'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.zsh'
+[0.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/colcon-core/packages/vicpinky_gazebo)
+[0.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_gazebo)
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo' for CMake module files
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo' for CMake config files
+[0.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_gazebo', 'cmake_prefix_path')
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/hook/cmake_prefix_path.sh'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/bin'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/lib/pkgconfig/vicpinky_gazebo.pc'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/lib/python3.12/site-packages'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/bin'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.bash'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/vicpinky_gazebo/package.zsh'
+[0.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_gazebo/share/colcon-core/packages/vicpinky_gazebo)
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --build /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication -- -j8 -l8
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication
+[1.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/cmake --install /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/simple_communication
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_communication', 'ros_package_path')
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/ros_package_path.ps1'
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/ros_package_path.dsv'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/ros_package_path.sh'
+[1.001s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/lib/python3.12/site-packages'
+[1.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_communication', 'catkin_pythonpath')
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/catkin_pythonpath.ps1'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/catkin_pythonpath.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/catkin_pythonpath.sh'
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_communication', 'pkg_config_path')
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pkg_config_path.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pkg_config_path.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pkg_config_path.sh'
+[1.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_communication', 'pkg_config_path_multiarch')
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pkg_config_path_multiarch.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pkg_config_path_multiarch.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pkg_config_path_multiarch.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_communication)
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication' for CMake module files
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication' for CMake config files
+[1.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_communication', 'cmake_prefix_path')
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/cmake_prefix_path.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/cmake_prefix_path.dsv'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/cmake_prefix_path.sh'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/lib'
+[1.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_communication', 'ld_library_path_lib')
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/ld_library_path_lib.ps1'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/ld_library_path_lib.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/ld_library_path_lib.sh'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/bin'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/lib/pkgconfig/simple_communication.pc'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/lib/python3.12/site-packages'
+[1.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_communication', 'pythonpath')
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pythonpath.ps1'
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pythonpath.dsv'
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/hook/pythonpath.sh'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/bin'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/package.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/package.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/package.sh'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/package.bash'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/simple_communication/package.zsh'
+[1.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/simple_communication/share/colcon-core/packages/simple_communication)
+[1.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vicpinky_bringup build --build-base /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_bringup/build install --record /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_bringup/install.log --single-version-externally-managed install_data
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/robot_communication': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_communication build --build-base /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build install --record /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/install.log --single-version-externally-managed install_data
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication' for CMake module files
+[1.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/robot_communication' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_communication build --build-base /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/build install --record /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/robot_communication/install.log --single-version-externally-managed install_data
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication' for CMake config files
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/bin'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/pkgconfig/robot_communication.pc'
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/lib/python3.12/site-packages'
+[1.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_communication', 'pythonpath')
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/hook/pythonpath.ps1'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/hook/pythonpath.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/hook/pythonpath.sh'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/bin'
+[1.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_communication)
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/package.ps1'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/package.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/package.sh'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/package.bash'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/robot_communication/package.zsh'
+[1.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/robot_communication/share/colcon-core/packages/robot_communication)
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup' for CMake module files
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup' for CMake config files
+[1.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/src/vic_pinky/vicpinky_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(arm_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(arm_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/vicpinky_bringup build --build-base /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_bringup/build install --record /home/jongbob/dev_ws/ros2-study/week1_ros2_basics/build/vicpinky_bringup/install.log --single-version-externally-managed install_data
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/lib'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/bin'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/lib/pkgconfig/vicpinky_bringup.pc'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/lib/python3.12/site-packages'
+[1.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('vicpinky_bringup', 'pythonpath')
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/hook/pythonpath.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/hook/pythonpath.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/hook/pythonpath.sh'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/bin'
+[1.768s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vicpinky_bringup)
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/package.ps1'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/package.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/package.sh'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/package.bash'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/vicpinky_bringup/package.zsh'
+[1.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/vicpinky_bringup/share/colcon-core/packages/vicpinky_bringup)
+[1.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.770s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.776s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.793s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/local_setup.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/_local_setup_util_ps1.py'
+[1.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/setup.ps1'
+[1.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/local_setup.sh'
+[1.797s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/_local_setup_util_sh.py'
+[1.797s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/setup.sh'
+[1.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/local_setup.bash'
+[1.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/setup.bash'
+[1.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/local_setup.zsh'
+[1.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jongbob/dev_ws/ros2-study/week1_ros2_basics/install/setup.zsh'
