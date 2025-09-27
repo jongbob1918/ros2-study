@@ -1,8 +1,0 @@
-setup.py
-simple_communication/__init__.py
-simple_communication.egg-info/PKG-INFO
-simple_communication.egg-info/SOURCES.txt
-simple_communication.egg-info/dependency_links.txt
-simple_communication.egg-info/top_level.txt
-simple_communication/srv/__init__.py
-simple_communication/srv/_get_robot_info.py

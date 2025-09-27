@@ -1,6 +1,0 @@
-# srv/GetRobotInfo.srv
-
----
-string robot_name
-string status
-float64 battery_level

@@ -1,2 +1,0 @@
-[console_scripts]
-real_robot_data = robot_communication.real_robot_data:main
